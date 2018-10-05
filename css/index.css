@@ -166,6 +166,12 @@ a {
 
 }
 
+a:hover {
+
+	color: grey;
+
+}
+
 button {
 
 	border: 2px solid black;
