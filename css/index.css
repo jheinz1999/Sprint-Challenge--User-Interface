@@ -149,6 +149,12 @@ footer nav a {
 
 /* Site-wide Styles */
 
+* {
+
+	animation: popIn 2s forwards;
+
+}
+
 nav {
 
 	margin: 20px 0px;
@@ -253,6 +259,26 @@ button {
 #box10 {
 
 	background-color: dodgerblue;
+
+}
+
+.box:hover {
+
+	animation: hoverBox 1.0s forwards;
+
+}
+
+/* Home animations */
+
+@keyframes hoverBox {
+
+	100% { transform: scale(1.2); }
+
+}
+
+@keyframes popIn {
+
+	0% { transform: scale(0); }
 
 }
 
