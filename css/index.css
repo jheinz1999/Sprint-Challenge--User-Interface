@@ -296,3 +296,35 @@ button {
 	margin-bottom: 10px;
 
 }
+
+/* Products Styles */
+
+.products-top {
+
+	margin: 0px 20px;
+	padding-bottom: 20px;
+
+}
+
+.product-list {
+
+	border-top: 1px dashed black;
+
+}
+
+.product {
+
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 20px;
+	border-bottom: 1px dashed black;
+	align-items: center;
+
+}
+
+.product-description {
+
+	width: 100%;
+	padding-left: 20px;
+
+}
